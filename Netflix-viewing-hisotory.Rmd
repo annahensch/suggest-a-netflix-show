@@ -1,0 +1,51 @@
+---
+title: "Personal Netflix viewing history"
+author: "Anna Henschel"
+date: "21/02/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Investigation of personal Netflix viewing history
+
+Load libraries
+```{r}
+library(lubridate)
+library(tidyverse)
+```
+
+Load data
+```{r}
+net<-read_csv("NetflixViewingHistory.csv")
+```
+
+Wrangle the data
+```{r}
+net <- net %>%
+  mutate(year = year(dmy(Date)), 
+         month = month(dmy(Date))) %>%
+  separate(Title, c("show", "title"), ":")
+
+sum_net <- net%>%
+  group_by(show, year) %>% # group by sentiment type
+  tally %>% # counts number of rows
+  arrange(desc(n))
+```
+
+Make a pretty plot
+```{r}
+sum_net %>%
+  filter(n >15) %>%
+  ggplot(aes(reorder(show, n, FUN = sum), n, fill = show)) +
+  geom_bar(stat = "identity") +
+  guides(fill=FALSE)+
+  labs(x= "Show", y= "Number of episodes watched", title= "My most watched shows on Netflix")+
+  coord_flip()
+#  facet_wrap(~year)
+  
+  
+```
+
