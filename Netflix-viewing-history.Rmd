@@ -14,6 +14,10 @@ knitr::opts_chunk$set(echo = TRUE)
 Load libraries
 ```{r}
 library(lubridate)
+library(ggthemes)
+library(wesanderson)
+library(RColorBrewer)
+library(gghighlight)
 library(tidyverse)
 ```
 
@@ -37,15 +41,20 @@ sum_net <- net%>%
 
 Make a pretty plot
 ```{r}
+pal <- wes_palette("Zissou1", 9, type = "continuous")
+
 sum_net %>%
-  filter(n >15) %>%
+  filter(n >21) %>%
   ggplot(aes(reorder(show, n, FUN = sum), n, fill = show)) +
   geom_bar(stat = "identity") +
   guides(fill=FALSE)+
   labs(x= "Show", y= "Number of episodes watched", title= "My most watched shows on Netflix")+
-  coord_flip()
-#  facet_wrap(~year)
+  coord_flip() +
+  theme_fivethirtyeight(base_size = 20) +
+  scale_fill_manual(values = pal) +
+  gghighlight(show == "Brooklyn Nine-Nine")
   
+
   
 ```
 

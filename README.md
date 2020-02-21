@@ -14,4 +14,4 @@ The app is motivated by being faced with an abundance of suggestions, so it will
 
 ## Scraping your own Netflix viewing history
 
-Netflix lets you download your viewing history [here](https://www.netflix.com/ViewingActivity). The script to visualize the top most viewed TV-shows can also be found in this repo.  
+Netflix lets you download your viewing history [here](https://www.netflix.com/ViewingActivity). The script ("./Netflix-viewing-hisotory.Rmd") to visualize the top most viewed TV-shows can also be found in this repo.  
