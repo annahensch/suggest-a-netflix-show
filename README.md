@@ -11,3 +11,7 @@ The app is motivated by being faced with an abundance of suggestions, so it will
 * Find out if IMDB or metacritic has an API
 * Build app that asks about prefered genre (+ possibly another random question)
 * Show one randomly picked movie plus the metacritic score
+
+## Scraping your own Netflix viewing history
+
+Netflix lets you download your viewing history (here)[https://www.netflix.com/ViewingActivity]. The script to visualize the top most viewed TV-shows can also be found in this repo.  
