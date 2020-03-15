@@ -1,13 +1,15 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-
+# Load libraries
 library(shiny)
+library(tidyverse)
+
+# Get the Netflix (US) data
+netflix<- read_csv("netflix_titles.csv")
+# Get the imdb data
+imdb_ratings <- 
+imdb_titles <- 
+
+#### Clean data
+
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
