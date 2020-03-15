@@ -1,4 +1,4 @@
-# Suggest a netflix show Shiny app
+# Shiny app: Suggest a netflix show:tv:
 
 ## Description
 Project to build a Shiny app that randomly suggests ONE viewing suggestion, based on genre preference and critics meta-score.  
