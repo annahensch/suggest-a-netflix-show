@@ -1,9 +1,9 @@
+![netflix](https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)  
+
 # Shiny app: Suggest a netflix show :tv:
 
 ## Description
-Project to build a Shiny app that randomly suggests ONE viewing suggestion, based on genre preference and critics meta-score.  
-
-The app is motivated by being faced with an abundance of suggestions, so it will simplify the choice by suggesting only one excellent film or TV show (the dice can be rolled again, until the user is satisfied with the suggestion).  
+Project to build a Shiny app that randomly suggests ONE viewing suggestion, based on genre preference and critics meta-score. The app is motivated by being faced with an abundance of suggestions, so it will simplify the choice by suggesting only one excellent film or TV show (the dice can be rolled again, until the user is satisfied with the suggestion).  
 
 ## To Do
 
