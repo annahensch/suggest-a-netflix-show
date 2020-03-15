@@ -8,7 +8,7 @@ The app is motivated by being faced with an abundance of suggestions, so it will
 ## To Do
 
 1. Find a website that contains a catalogue of shows currently on Netflix UK that lets me interact with the API  
-It seems like there are not many great options to solve this. On [kaggle](https://www.kaggle.com/shivamb/netflix-shows), there is the Netflix dataset, that contains movies and shows until 2019 (via Flixable:https://flixable.com/).  
+It seems like there are not many great options to solve this. On [kaggle](https://www.kaggle.com/shivamb/netflix-shows), there is the Netflix dataset, that contains movies and shows until 2020, which is updated every two months (via Flixable:https://flixable.com/).  
 2. Find out if IMDB or metacritic has an API
 3. Build app that asks about prefered genre (+ possibly another random question)
 4. Show one randomly picked movie plus the metacritic score
