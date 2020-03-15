@@ -8,7 +8,7 @@ Project to build a Shiny app that randomly suggests ONE viewing suggestion, base
 ## To-do :tv:
 
 1. Find a website that contains a catalogue of shows currently on Netflix UK that lets me interact with the API  
-It seems like there are not many great options to solve this. On [kaggle](https://www.kaggle.com/shivamb/netflix-shows), there is the Netflix dataset, that contains movies and shows until 2020, which is updated every two months (via Flixable:https://flixable.com/).  
+It seems like there are not many great options to solve this. On [kaggle](https://www.kaggle.com/shivamb/netflix-shows), there is the Netflix dataset, that contains movies and shows until 2020, which is updated every two months (via Flixable: https://flixable.com/).  
 2. Find out if IMDB or metacritic has an API  
 They don't, but they did recently share their titles and ratings data. Also via [kaggle](https://www.kaggle.com/ashirwadsangwan/imdb-dataset).  
 3. Build Shiny app that asks about prefered genre  
