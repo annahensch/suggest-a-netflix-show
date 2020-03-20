@@ -18,4 +18,6 @@ They don't, but they did recently share their titles and ratings data. Also via 
 
 Netflix lets you download your viewing history [here](https://www.netflix.com/ViewingActivity). The script ("./Netflix-viewing-hisotory.Rmd") to visualize the top most viewed TV-shows can also be found in this repo.  
 
+![gif](https://github.com/annahensch/suggest-a-netflix-show/blob/master/annas-fave-shows.gif)  
+
 Header image via @freestocks on [Unsplash](https://unsplash.com/photos/11SgH7U6TmI).
